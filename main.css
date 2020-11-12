@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 8em;
+}
+
+.content {
+    display: flex;
+}
+
+.fishlist {
+    border: 3px dotted rgb(165, 243, 165);
+}
+
+.quotes {
+    border: 3px dotted rgb(240, 217, 159);
+    margin-bottom: 25px;
+    margin-right: 500px;
+}
+
+.locations {
+    border: 3px dotted rgb(241, 177, 177);
+    margin-bottom: 25px;
+    margin-right: 500px;
+}
+
+.tankTips {
+    border: 3px dotted rgb(135, 193, 250);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body {
+    border: 1px solid rgb(171, 155, 214);
+    margin-bottom: 0%;
+}
+
+.container--left {
+    flex: 3;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.container--right {
+    flex: 1;
+    display: flex;
+}
+
+.fish__image {
+    height: 7em;
+}
+
+.location__image {
+    height: 7em;
+}
+
+.container--left article {
+    margin-bottom: 25px;
+    border: 3px dotted rgb(171, 243, 171);
+}
+
+.content {
+    display: flex;
+}
